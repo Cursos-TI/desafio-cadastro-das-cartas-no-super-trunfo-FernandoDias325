@@ -85,7 +85,7 @@ int main(){
     scanf(" %[^\n]%*c", cidade2);
 
     printf("Para representar o código de sua carta, escolha um número de 01 a 04 : \n");
-    scanf(" %c", codigo2);
+    scanf(" %s", codigo2);
     
     // Linha de separação para organizar a saída
     printf("==========================================================================================\n");
